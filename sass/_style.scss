@@ -1,0 +1,44 @@
+
+.nav1{
+	background-image: url("../img/devices.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:$color-uno;
+	z-index:2;
+}
+.nav2{
+	background-color: rgba(0,0,0,.9);
+}
+
+.logo{
+	margin-top:15px;
+}
+.titulo{
+	margin-top: -65px;
+	text-align: center;
+	color: $color-dos;
+}
+
+.uno{
+	background-image: url('../img/slider_bg12_wyzliq-min_dffuob.jpg');
+	padding:40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.our{
+	text-align:center;
+}
+
+.latest{
+	text-align:center;
+}
+
+.subtitulo{
+	text-align: center;
+}
+.amazing{
+	text-align:center;
+}
+
