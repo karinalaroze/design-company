@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6790,23 +6791,124 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   text-align: center;
   color: white; }
 
+/* diseños de la sección uno */
 .uno {
   background-image: url("../img/slider_bg12_wyzliq-min_dffuob.jpg");
-  padding: 40vh;
+  padding: 28vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
+.center-btn {
+  text-align: center;
+  margin-top: 15%; }
+
+.btn1 {
+  background-color: transparent;
+  border: 1px solid #26a69a; }
+
+/* diseños de la sección dos */
+.dos {
+  background-color: #F0FFFF;
+  padding: 30px; }
+
 .our {
   text-align: center; }
 
+.caja {
+  color: #26a69a;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  height: 145px;
+  width: 145px;
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden; }
+
+.borde {
+  margin-left: 20px; }
+
+.titulo1 {
+  margin-left: 30px; }
+
+.informacion {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  color: grey; }
+
+.btn2 {
+  margin-left: 20px; }
+
+/* diseño de la sección tres */
+.tres {
+  padding: 50px; }
+
+.texto {
+  color: grey; }
+
+/*diseño de la sección cuatro */
 .latest {
+  font-size: 60px;
   text-align: center; }
 
 .subtitulo {
+  font-size: 19px;
+  color: grey;
   text-align: center; }
 
+.ideas {
+  background-color: #F0FFFF;
+  height: 40px;
+  padding-top: 10px; }
+
+.card-content {
+  color: grey; }
+
+/*diseño de la sección cinco */
+.cinco {
+  padding: 30px; }
+
 .amazing {
+  font-size: 47px;
   text-align: center; }
+
+.titulos {
+  text-align: center; }
+
+.lorem {
+  text-align: center;
+  color: grey; }
+
+/* diseño de la sección seis */
+.seis {
+  padding: 30px;
+  background-color: #F0FFFF; }
+
+.talent {
+  text-align: center;
+  font-size: 47px; }
+
+.subtalent {
+  text-align: center;
+  color: grey;
+  font-size: 20px; }
+
+.action a {
+  color: white; }
+
+.card .action {
+  background-color: #78c1bc; }
+
+/* falta terminar 
+.siete{
+	background-image: url('../img/features_bg2-min.jpg');
+	padding:28vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+*/
 
 /*# sourceMappingURL=main.css.map */

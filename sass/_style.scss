@@ -19,26 +19,135 @@
 	color: $color-dos;
 }
 
+/* diseños de la sección uno */
+
 .uno{
 	background-image: url('../img/slider_bg12_wyzliq-min_dffuob.jpg');
-	padding:40vh;
+	padding:28vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
+.center-btn{
+	text-align:center;
+	margin-top:15%;
+}
 
+.btn1{
+	background-color:$color-tres;
+	border:1px solid $color-cuatro;
+}
+ /* diseños de la sección dos */
+
+.dos{
+	background-color:#F0FFFF;
+	padding:30px;
+}
 .our{
 	text-align:center;
 }
-
-.latest{
-	text-align:center;
+.caja{
+	color:$color-cuatro;
+	border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    height: 145px;
+    width: 145px;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
 }
 
+.borde{
+	margin-left:20px;
+}
+
+.titulo1{
+	margin-left:30px;
+}
+.informacion{
+	margin-bottom: 1rem;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    color:$color-texto;
+}
+.btn2{
+	margin-left:20px;
+}
+
+/* diseño de la sección tres */
+.tres{
+	padding:50px;
+}
+.texto{
+	color:$color-texto;
+}
+
+/*diseño de la sección cuatro */
+.latest{
+	font-size: 60px;
+	text-align:center;
+}
 .subtitulo{
-	text-align: center;
+	font-size:19px;
+	color:$color-texto;
+	text-align:center;
+}
+.ideas{
+	background-color:#F0FFFF;
+	height:40px;
+	padding-top:10px;
+}
+.card-content{
+	color:$color-texto;
+}
+
+/*diseño de la sección cinco */
+.cinco{
+	padding:30px;
 }
 .amazing{
+	font-size:47px;
 	text-align:center;
 }
+.titulos{
+	text-align:center;
+}
+.lorem{
+	text-align:center;
+	color:$color-texto;
+}
+
+/* diseño de la sección seis */
+.seis{
+	padding:30px;
+	background-color: #F0FFFF;
+}
+
+.talent{
+	text-align:center;
+	font-size:47px;
+}
+
+.subtalent{
+	text-align:center;
+	color:$color-texto;
+	font-size:20px;
+}
+.action a{
+	color:$color-dos;
+}
+.card .action{
+	background-color: $color-action;
+}
+
+/* falta terminar 
+.siete{
+	background-image: url('../img/features_bg2-min.jpg');
+	padding:28vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+*/
 
